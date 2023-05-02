@@ -8,6 +8,7 @@ The repository contains two ways to visualize the standard outputs of SpineOpt, 
 ### `Exporter`
 
 This contains the exporter specification .json files to extract .csv files from the sqlite databases to be used in the visualizations.
+(Some more exporters will be added.)
 
 
 ### `Jupyter notebook`
@@ -17,4 +18,5 @@ This folder could contains the Jupyter notebook to create an interactive dashboa
 ### `Power BI`
 
 This folder could contains a Power BI file based on the standard output of SpineOpt.
+(Folder will be added.)
 
