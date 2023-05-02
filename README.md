@@ -1,31 +1,20 @@
-# Project template for Spine Toolbox
+# Some visualization files that have been created at DTU
 
-This is a template repository for Git-versioned Spine Toolbox projects.
-To create a new GitHub repository based on this template, click on the **Use this template** button.
-
-## Ignored files
-
-Some files are ignored by default:
-- output files created by project execution
-- temporary and log files
-
-Other project-specific ignores can be added to the [.gitignore](.gitignore) file.
+The repository contains two ways to visualize the standard outputs of SpineOpt, one using Power BI and a second using a Jupyter notebook.
 
 
 ## Folder strucure
 
-### `data`
+### `Exporter`
 
-This folder could be used for storing the original data files. 
-Please add metadata and licensing information as well.
-
-
-### `scripts`
-
-This folder could be used for storing processing scripts and their tool specifications.
+This contains the exporter specification .json files to extract .csv files from the sqlite databases to be used in the visualizations.
 
 
-## License and Terms of Use
+### `Jupyter notebook`
 
-The Spine Toolbox project example provided here can be used without any 
-limitations. This does not necessarily apply to any data files contained within.
+This folder could contains the Jupyter notebook to create an interactive dashboard using the Julia visulaization package Makie. It runs on Julia 1.7.3. The project files contain the package versions. The GLMakie backend is used for the dashboard, the CairoMakie backend is used for the publication figures.
+
+### `Power BI`
+
+This folder could contains a Power BI file based on the standard output of SpineOpt.
+
