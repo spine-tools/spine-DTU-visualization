@@ -18,5 +18,4 @@ This folder could contains the Jupyter notebook to create an interactive dashboa
 ### `Power BI`
 
 This folder could contains a Power BI file based on the standard output of SpineOpt.
-(Folder will be added.)
 
